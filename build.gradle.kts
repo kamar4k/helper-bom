@@ -61,7 +61,7 @@ dependencies {
 
         // MapStruct
         api("org.mapstruct:mapstruct:1.6.3")
-        api("org.mapstruct:mapstruct-processor:1.6.3")
+        runtime("org.mapstruct:mapstruct-processor:1.6.3")
 
         // Logbook
         api("org.zalando:logbook-spring-boot-starter:3.7.2")
